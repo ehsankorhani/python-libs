@@ -4,3 +4,4 @@
 
 * venv
 * requests
+* requests_oauthlib

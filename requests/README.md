@@ -195,19 +195,7 @@ response = requests.get('https://reqres.in/api/users', auth = CustomAuth('user',
 
 ### OAUTH 2
 
-The ```requests-oauthlib``` library handles OAuth 2.<br>
-
-```py
-from requests_oauthlib import OAuth1Session
-
-twitter = OAuth1Session('client_key',
-                            client_secret='client_secret',
-                            resource_owner_key='resource_owner_key',
-                            resource_owner_secret='resource_owner_secret')
-
-url = 'https://api.twitter.com/1/account/settings.json'
-response = twitter.get(url)
-```
+Is discussed separately in the **OAUTH 2.0** section.
 
 <br>
 
